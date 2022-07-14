@@ -1,0 +1,172 @@
+body{
+    
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body2{
+    
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body3{
+    
+    background: #6829bb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a4bce, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5130e2, #5323d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body4{
+    
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body5{
+    
+    background: #f8c475;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7c8a17, #f1ff2c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e2b24c, #d1db47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body6{
+    
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.body7{
+    
+    background: #8753ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c23eff, #a557ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f751e0, #dd41f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Oswald',Arial,sans-serif;
+    font: size 13px;
+}
+.main{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.view{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+
+}
+.view .mask, .view .content{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+}
+.view .mask1, .view .content{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view .mask2, .view .content{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+}
+.view .mask{
+    background-color: rgba(74, 141, 228, 0.747);
+
+
+}
+.view .mask1{
+    background-color: rgba(6, 170, 98, 0.7);
+    
+
+}
+.view .mask2{
+    background-color: rgba( 246, 128, 230, 0.7);
+
+
+}
+.view img{
+    display: block;
+    position: relative;
+    width: 500px;
+
+
+}
+.view h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+.view p{
+    font-family: georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+.view a.info{
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+
+
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+
+
+}
+.info:hover {
+    font-size: 20px;
+    color: pink;
+
+
+}
+p.descripcion {
+    font-size: 20px;
+
+
+}
+.colorp{
+    text-decoration-color: #e6e6e6;
+}
